@@ -8,7 +8,8 @@ const userSchema = new Schema({
     isAdmin: {
         type: Boolean,
         default: false
-    }
+    },
+    createdAt: Date.now()
 })
 
 module.exports = mongoose.model('usuarios',userSchema)
