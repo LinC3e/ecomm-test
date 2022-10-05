@@ -14,4 +14,4 @@ const productSchema = new Schema({
     status: { type : String , defautl: "pending" }
 })
 
-module.exports = mongoose.model('cart',productSchema)
+module.exports = mongoose.model('order',productSchema)
