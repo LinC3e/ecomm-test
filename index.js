@@ -8,6 +8,9 @@ mongoose.connect(process.env.MONGODB).then(() => console.log("DB connection on")
     console.log(err)
 })
 
+// Middleware
+app.use(express.json())
+
 app.use('/api',routerSh)
 
 app.listen(process.env.PORT || 8090, () => {
