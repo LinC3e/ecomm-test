@@ -9,7 +9,6 @@ const userSchema = new Schema({
         type: Boolean,
         default: false
     },
-    createdAt: Date.now()
-})
+},{timestamps: true})
 
 module.exports = mongoose.model('usuarios',userSchema)
