@@ -1,0 +1,20 @@
+{
+  "name": "e-comm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinC3e/ecomm-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LinC3e/ecomm-test/issues"
+  },
+  "homepage": "https://github.com/LinC3e/ecomm-test#readme"
+}
