@@ -11,4 +11,4 @@ const productSchema = new Schema({
     ]
 })
 
-module.exports = mongoose.model('usuarios',productSchema)
+module.exports = mongoose.model('cart',productSchema)

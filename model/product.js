@@ -9,4 +9,4 @@ const productSchema = new Schema({
     price: { type: Number, required: true }
 })
 
-module.exports = mongoose.model('usuarios',productSchema)
+module.exports = mongoose.model('product',productSchema)
